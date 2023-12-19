@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/consultant/consultant",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/categorize/categorize",
+    "pages/order/order",
+    "pages/appointment/appointment",
+    "pages/registration/registration",
+    "pages/payment/payment",
+    "pages/goodsDetail/goodsDetail",
+    "pages/doctorDetail/doctorDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/consultant/consultant",
+        "iconPath": "./static/consult.png",
+        "selectedIconPath": "./static/consult-fill.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./static/cart.png",
+        "selectedIconPath": "./static/cart_fill.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./static/mine.png",
+        "selectedIconPath": "./static/mine-fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

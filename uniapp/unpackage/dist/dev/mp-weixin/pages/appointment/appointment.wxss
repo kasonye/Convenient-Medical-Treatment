@@ -1,0 +1,35 @@
+
+.order {
+		width: 96%;
+		height: auto;
+		background-color: #fff;
+		margin-top: 2%;
+		padding:10rpx;
+		border-radius: 10rpx;
+		border: #f5f5f5 5rpx solid;
+}
+.goods {
+		margin-top: 2%;
+		margin-left: 2%;
+		background-color: #fff;
+		border-radius: 10rpx;
+		width: 96%;
+		height: 200rpx;
+		display: flex;
+		justify-content: start;
+		border: #f5f5f5 5rpx solid;
+}
+image {
+		width: 40%;
+		height: 100%;
+		overflow: auto;
+}
+.account {
+		width: 100%;
+		display: flex;
+		justify-content: start;
+		position: fixed;
+		bottom: 0;
+		background-color: #fff;
+}
+

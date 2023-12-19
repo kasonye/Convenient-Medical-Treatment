@@ -1,0 +1,50 @@
+
+.saveButton {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+image {
+	width: 100%;
+	height: 400rpx;
+}
+.price {
+	font-size: 35rpx;
+	color: $shop-color;
+	line-height: 80rpx;
+}
+text:nth-child(2) {
+	font-size: 30rpx;
+	color: #ccc;
+	text-decoration: line-through;
+	margin-left: 20rpx;
+}
+.goods_price {
+	font-size: 32rpx;
+	line-height: 60rpx;
+}
+.box1 {
+	padding: 10px;
+}
+.line {
+	width: 750rpx;
+	height: 10rpx;
+	background: #eee;
+}
+.box2 {
+	padding: 0 10px;
+	font-size: 32rpx;
+	line-height: 70rpx;
+}
+.tit {
+	font-size: 32rpx;
+	padding-left: 10px;
+	border-bottom: 1px solid #eee;
+	line-height: 70rpx;
+}
+.content {
+	font-size: 28rpx;
+	padding: 10px;
+	line-height: 50rpx;
+}
+

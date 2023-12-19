@@ -1,0 +1,17 @@
+
+page {
+	background-color: #fff;
+	padding-bottom: 20%;
+}
+.saveButton {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+image {
+	margin-left: 20%;
+	width: 60%;
+	border-radius: 100%;
+	height: 400rpx;
+}
+

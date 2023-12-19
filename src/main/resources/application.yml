@@ -1,0 +1,29 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.43.151:3307/cmt?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+    host: 192.168.43.151
+    port: 5672
+    username: guest
+    password: guest
+
+huaweicloud:
+  chatbot:
+    projectId: bba42da9ad414200b29a8caca16447ff
+    endpoint: https://cbs-ext.cn-north-4.myhuaweicloud.com
+    region: cn-north-4
+    robotId: 00ae23fe-adf9-4631-ad19-af125b30f59e
+    ak: STRSRJ4ANBI7FXTFG74P
+    sk: mBs7n50zDVRF4TNeuUmVxW0ZGeYAesEikKTMayWo
+
+

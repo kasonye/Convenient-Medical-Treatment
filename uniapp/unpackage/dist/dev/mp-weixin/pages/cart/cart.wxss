@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 2796436 */
+  src: url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.woff2?t=1677844162129') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.woff?t=1677844162129') format('woff'),
+       url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.ttf?t=1677844162129') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-minus-circle:before {
+  content: "\e821";
+}
+.icon-plus-circle:before {
+  content: "\e822";
+}
+.icon-order:before {
+  content: "\e713";
+}
+.icon-date:before {
+  content: "\e6e0";
+}
+.icon-medicinebox:before {
+  content: "\e7cd";
+}
+.icon-loading:before {
+  content: "\e891";
+}
+.icon-add:before {
+  content: "\e681";
+}
+.icon-down:before {
+  content: "\eb0a";
+}
+.icon-up:before {
+  content: "\eb0b";
+}
+page {
+	padding-bottom: 18%;
+}
+.goods {
+	margin-top: 2%;
+	margin-left: 2%;
+	background-color: #fff;
+	border-radius: 10rpx;
+	width: 96%;
+	height: 200rpx;
+	display: flex;
+	justify-content: space-between;
+}
+image {
+	width: 40%;
+	height: 100%;
+	overflow: auto;
+}
+.count {
+	flex-flow: row;
+	justify-content: flex-end;
+	display: flex;
+}
+.account {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+

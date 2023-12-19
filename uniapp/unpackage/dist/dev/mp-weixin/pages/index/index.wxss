@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 2796436 */
+  src: url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.woff2?t=1677844162129') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.woff?t=1677844162129') format('woff'),
+       url('https://at.alicdn.com/t/c/font_2796436_3dspecc21di.ttf?t=1677844162129') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-minus-circle:before {
+  content: "\e821";
+}
+.icon-plus-circle:before {
+  content: "\e822";
+}
+.icon-order:before {
+  content: "\e713";
+}
+.icon-date:before {
+  content: "\e6e0";
+}
+.icon-medicinebox:before {
+  content: "\e7cd";
+}
+.icon-loading:before {
+  content: "\e891";
+}
+.icon-add:before {
+  content: "\e681";
+}
+.icon-down:before {
+  content: "\eb0a";
+}
+.icon-up:before {
+  content: "\eb0b";
+}
+.page-section-spacing {
+	width: calc(100% - 60rpx);
+	margin: 30rpx 30rpx;
+}
+.swiper {
+	height: 300rpx;
+	width: 100%;
+}
+
+/* swiper-item 里面的图片高度 */
+swiper-item image {
+	width: 100%;
+	height: 300rpx;
+	border-radius: 20rpx 20rpx 0 0;
+}
+.nav {
+	display: flex;
+}
+.nav_item {
+	width: 25%;
+	text-align: center;
+}
+.nav view {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 60rpx;
+	background: #1E90FF;
+	margin: 10rpx auto;
+	line-height: 120rpx;
+	color: #000;
+	font-size: 50rpx;
+}
+text {
+	font-size: 30rpx;
+}
+.hot_goods {
+	background: #eee;
+	overflow: hidden;
+	margin-top: 10rpx;
+}
+.title {
+	height: 50px;
+	line-height: 50px;
+	color: $shop-color;
+	background: #fff;
+	text-align: center;
+	letter-spacing: 20px;
+	margin: 7rpx 0;
+}
+.goods_list {
+	padding: 0 15rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.goods_item {
+	background: #fff;
+	width: 355rpx;
+	margin: 10px 0;
+	padding: 15rpx;
+	box-sizing: border-box;
+}
+image {
+	width: 80%;
+	height: 150px;
+	display: block;
+	margin: 5px auto;
+}
+.price {
+	color: $shop-color;
+	font-size: 36rpx;
+}
+text:nth-child(2) {
+	color: #ccc;
+	font-size: 28rpx;
+	margin-left: 17rpx;
+	text-decoration: line-through;
+}
+.name {
+	font-size: 28rpx;
+	line-height: 50rpx;
+	padding-bottom: 15rpx;
+	padding-top: 10rpx;
+}
+

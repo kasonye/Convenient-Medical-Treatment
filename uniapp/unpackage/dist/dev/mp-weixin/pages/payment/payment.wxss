@@ -1,0 +1,10 @@
+
+page {
+	background-color: #fff;
+}
+.payBtn {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
